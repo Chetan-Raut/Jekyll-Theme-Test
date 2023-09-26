@@ -1,0 +1,24 @@
+# Minimal Mistakes Jekyll Configuration
+# For more configuration options, see:
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+# Site settings
+title: Your Site Title
+description: Your site description
+url: https://example.com # Your site's URL
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Theme
+remote_theme: mmistakes/minimal-mistakes
+
+# Minimal Mistakes defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
